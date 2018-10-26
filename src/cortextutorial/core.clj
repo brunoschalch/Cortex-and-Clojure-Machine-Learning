@@ -12,7 +12,7 @@
 (def num-nodes 32)
 
 (def network-architecture
-  [(layers/input 11 1 1 :id :x)
+  [(layers/input 10 1 1 :id :x)
 
    (layers/linear num-nodes)
    (layers/relu)
